@@ -58,6 +58,8 @@ spec:
                 secretKeyRef:
                   name: n8n-secret
                   key: N8N_SECURE_COOKIE
+            - name: N8N_DEFAULT_LOCALE
+              value: ja
           image: n8nio/n8n
           name: n8n
           ports:
